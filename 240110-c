@@ -1,0 +1,287 @@
+/*
+
+#include <stdio.h>
+
+// standard input & output
+
+int main(  )
+
+{
+
+    printf("Hello");
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+// standard input & output
+
+int main(  )
+
+{
+
+    printf("Hello World");
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+// standard input & output
+
+int main(  )
+
+{
+
+    printf("Hello \nWorld");
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+// standard input & output
+
+int main(  )
+
+{
+
+    printf("\'Hello'");
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+// standard input & output
+
+int main(  )
+
+{
+
+    printf("\"Hello World\"");
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+// standard input & output
+
+int main(  )
+
+{
+
+    printf("\"!@#$%%^&*()\"");
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main(  )
+
+{
+
+    printf("\"C:\\Download\\hello.cpp\"");
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+정수형
+
+int                     %d
+
+long long int       %lld
+
+실수형
+
+float                   %f
+
+double                  %lf
+
+문자형
+
+char                        %c
+
+*/
+
+// f(x) = 2x + 3
+
+#include<stdio.h>
+
+/*
+
+int main() {
+
+    int xx, yy;
+
+    int apple;
+
+    int banana1;
+
+    int but_;
+
+//    xx = 1000;
+
+//    xx = xx + 5000;
+
+    scanf("%d %d", &xx, &yy);
+
+    printf("%d", xx + yy);
+
+}
+
+*/
+
+/*
+
+#include<stdio.h>
+
+int main()
+
+{
+
+    int n;
+
+    scanf("%d",&n);
+
+    printf("%d", n);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include<stdio.h>
+
+int main( )
+
+{
+
+    char x;
+
+    scanf("%c",&x);
+
+    printf("%c" , x);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include<stdio.h>
+
+int main()
+
+{
+
+    float x;
+
+    scanf("%f", &x);
+
+    printf("%f", x);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include<stdio.h>
+
+int main()
+
+{
+
+    int a, b;
+
+    scanf("%d %d", &a, &b);
+
+    printf("%d %d",a, b);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include<stdio.h>
+
+int main()
+
+{
+
+    char x,y;
+
+    scanf("%c %c", &x,&y);
+
+    printf("%c %c", y, x);
+
+    return 0;
+
+}
+
+*/
+
+#include<stdio.h>
+
+int main()
+
+{
+
+    double  x;
+
+    scanf("%lf",&x);
+
+    printf("%.2lf",x);
+
+    return 0;
+
+}
