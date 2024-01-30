@@ -1,0 +1,337 @@
+/*
+
+!a -> 단항연산자
+
+다항연산자 -> a+b a>b a&&b (항이2개 )
+
+삼항연산자 (항이 3개)
+
+( 조건식 ) ? (  조건식의 결과가 1일때의 값  ) : (  조건식의 결과가 0일때의 값  )
+
+조건식 : 결과가 1(true) 또는 0(false)으로 나오는 식 ex) a>b , a>0&&b==5
+
+int c;
+
+c = 123 > 456 ? 500 : 700 ;
+
+printf("%d",c); // 700이 나올것!
+
+특수한케이스 ( 두 수 중 큰 수, 두 수 중 작은 수 ) - 미니조건문
+
+int a, b;
+
+printf("%d", a>b ? a : b); // a, b, 둘 중 큰 수 출력해라
+
+printf("%d", a<b ? b : a); // a, b, 둘 중 큰 수 출력해라
+
+printf("%d", a<b ? a : b); // a, b, 둘 중 작은 수 출력해라
+
+printf("%d", a>b ? b : a); // a, b, 둘 중 작은 수 출력해라
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int x,y;
+
+    scanf ("%d %d",&x,&y);
+
+    printf ("%d",x>y ? x:y);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int x,y,z,t;
+
+    scanf("%d %d %d",&x,&y,&z);
+
+    t=(x<y ? x:y);
+
+    printf("%d", t < z ? t : z);
+
+    return 0;
+
+}
+
+조건문
+
+1. if-else          90%
+
+2. switch-case      10%
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a;
+
+    scanf("%d",&a);
+
+    if(a>=10)
+
+    {
+
+        printf("hello");
+
+    }
+
+    else if(a>=8) //위의 조건을 충족하지 못했는데 이번 조건을 충족한 경우
+
+    {
+
+        printf("hi");
+
+    }
+
+    else if(a>=5)
+
+    {
+
+        printf("hehe..");
+
+    }
+
+    else //위의 조건들을 충족하지 못한 나머지 애들
+
+    {
+
+        printf("world");
+
+    }
+
+    if(a<0)
+
+    {
+
+    }
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a;
+
+    scanf ("%d",&a);
+
+    if (a<10){
+
+        printf ("small");
+
+    }
+
+}
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a;
+
+    scanf ("%d",&a);
+
+    if (a<10){
+
+        printf ("small");
+
+    }
+
+    else{
+
+        printf ("big");
+
+    }
+
+    return 0;
+
+}
+
+//
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a,b;
+
+    scanf("%d %d",&a,&b);
+
+    if (a>b){
+
+        printf (">");
+
+    }
+
+    else if (a<b){
+
+            printf("<");
+
+    }
+
+    else {
+
+        printf ("=");
+
+    }
+
+    return 0;
+
+}*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a,b;
+
+    scanf ("%d %d",&a,&b);
+
+    if (a>b){
+
+        printf ("%d",a-b);
+
+    }
+
+    else{
+
+        printf ("%d",b-a);
+
+    }
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int x,y;
+
+    scanf ("%d %d",&x,&y);
+
+    printf ("%d",x>y ? x:y);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a,b;
+
+    scanf("%d %d",&a,&b);
+
+    printf("%d",a>b ? (a-b):(b-a));
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include<stdio.h>
+
+int main()
+
+{
+
+    int a;
+
+    scanf("%d",&a);
+
+    if (a%7==0){
+
+        printf("multiple");
+
+    }
+
+    else{
+
+            printf("not multiple");
+
+    }
+
+    return 0;
+
+}
+
+*/
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    double a;
+
+    scanf("%lf",&a);
+
+    if ( 50<=a && a<=60)
+
+    {
+
+        printf("win");
+
+    }
+
+    else{
+
+        printf("lose");
+
+    }
+
+}
