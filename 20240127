@@ -1,0 +1,248 @@
+/*
+
+#include <stdio.h>
+
+int main ()
+
+{
+
+	int a,b,c;
+
+	scanf ("%d %d %d", &a, &b, &c);
+
+	if (a <= 170) {
+
+		printf ("CRASH %d",a);
+
+	}
+
+		else  if (b <=170) {
+
+				printf ("CRASH %d",b);		
+
+		}
+
+		else if (c <= 170) {
+
+			printf ("CRASH %d",c);
+
+		}
+
+		else{
+
+			printf ("PASS");
+
+		}
+
+	
+
+	
+
+}
+
+//
+
+#include <stdio.h>
+
+int main ()
+
+{
+
+	double a,b,c,d;
+
+	//a=키
+
+	//b=몸무게
+
+	scanf ("%lf %lf",&a,&b);
+
+	
+
+	c=(a-100)*0.9;
+
+	d=(b-c)*(100/c);
+
+	
+
+	if (d <= 10) {
+
+		printf ("정상");
+
+	}
+
+	else if (10 < d && 20 >= d) {
+
+		printf ("과체중");
+
+	}
+
+	else {
+
+		printf ("비만");
+
+	}
+
+	return 0;
+
+}*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+	double a,b,c,d;
+
+	scanf("%lf %lf",&a,&b);
+
+	if (a <= 150) {
+
+		c = a-100;
+
+	}
+
+	else if (a >= 150 && a <160) {
+
+			c = (a - 150)/2 + 50;
+
+	}
+
+	else {
+
+		c = (a - 100)*0.9;
+
+	}
+
+	
+
+	d=(b-c)*(100/c);
+
+	
+
+	if (d <= 10) {
+
+		printf ("정상");
+
+	}
+
+	else if (10 < d && 20 >= d) {
+
+		printf ("과체중");
+
+	}
+
+	else {
+
+		printf ("비만");
+
+	}
+
+	return 0;
+
+	
+
+	
+
+}
+
+//
+
+#include <stdio.h>
+
+int main ()
+
+{
+
+	double a,b,c,d;
+
+	scanf ("%lf %lf %lf %lf",&a, &b, &c, &d);	
+
+	if (a/b > c/d) {
+
+		printf (">");
+
+	}
+
+	else if (a/b == c/d) {
+
+		printf ("=");
+
+	}
+
+	else {
+
+		printf ("<");
+
+	}
+
+	
+
+	return 0;
+
+	
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+	long long int a,b;
+
+	scanf ("%lld %lld",&a,&b);
+
+	if (b==1||b==2){
+
+		printf ("%lld",2012-(1900+a/10000)+1);
+
+	}
+
+	else {
+
+		printf ("%lld",2012-(2000+a/10000)+1);
+
+	}
+
+		
+
+}
+
+*/
+
+#include <stdio.h>
+
+int main()
+
+{
+
+	int a,b,c,d;
+
+	scanf ("%d %d %d",&a,&b,&c);
+
+    d=((a+b+c)%1000);      
+
+	if (d/100%2==0) {
+
+		printf ("대박");
+
+	}
+
+	else {
+
+		printf ("그럭저럭");
+
+	}
+
+	return 0;
+
+}
+
