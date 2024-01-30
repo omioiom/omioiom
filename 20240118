@@ -1,0 +1,301 @@
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a,b;
+
+    scanf("%d %d",&a,&b);
+
+    printf("%d\n",a+b);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a,b;
+
+    scanf("%d %d",&a,&b);
+
+    printf ("%d+%d=%d\n",a,b,a+b);
+
+    printf ( "%d-%d=%d\n",a,b,a-b);
+
+    printf ( "%d*%d=%d\n",a,b,a*b);
+
+    printf ("%d/%d=%d",a,b,a/b);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    double a,b;
+
+    scanf ("%lf %lf",&a,&b);
+
+    printf("%.2lf",(double)a*b);
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int x;
+
+    scanf ("%d",&x);
+
+    printf ("%d %d",x/60, x%60);
+
+    return 0;
+
+}
+
+산술연산자 + - * / %
+
+비교연산자 > < >= <= == !=
+
+int a,b;
+
+scanf("%d %d",&a,&b);
+
+printf("%d",a+b); // -2147483648 ~ +2147483647
+
+printf("%d",a>b); // 1 or 0
+
+1.비교연산의 결과는 맞으면1 틀리면 0 두 개 중에 하나로 나온다
+
+2. <= >= !=
+
+=을 오른쪽에 !
+
+a<=b (o)
+
+a=<b (x)
+
+3. == vs =
+
+a=5;    (대입) a에 5를 대입해
+
+a==5    (비교) a와 5가 같나요?
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a,b;
+
+    scanf("%d %d",&a,&b);
+
+    printf("%d",a > b);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a,b;
+
+    scanf("%d %d",&a,&b);
+
+    printf("%d",a == b);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a,b;
+
+    scanf("%d %d", &a,&b);
+
+    printf("%d",a <= b);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a,b;
+
+    scanf("%d %d", &a,&b);
+
+    printf("%d",a != b);
+
+    return 0;
+
+}
+
+논리연산자 ! && ||
+
+1. 논리값으로만 연산
+
+논리값 :  1 또는 0의 값
+
+2.
+
+---------not 아니다
+
+printf("%d",!1); //0
+
+printf("%d",!0); //1
+
+printf("%d",!a); // a가 0이라면 1, a가 1이라면 0이 출력
+
+만약 a가 10이라면??
+
+!10 -> 0
+
+0 -> 0 false
+
+0이아닌 모든수 -> 1 true
+
+---------and 그리고 &&
+
+printf("%d", a>0 && b>0 );
+
+&& 양쪽에 값이 모두 1이면 결과가 1
+
+a  b  a && b      !(a&&b)
+
+0  0    0            1
+
+0  1    0            1
+
+1  0    0            1
+
+1  1    1            0
+
+printf("%d", a && b );
+
+---------or 또는 ||
+
+a   b   a||b
+
+0   0   0
+
+0   1   1
+
+1   0   1
+
+1   1   1
+
+printf("%d", a || b );
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int x;
+
+    scanf("%d",&x);
+
+    printf("%d",!x);
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int x,y;
+
+    scanf("%d %d",&x,&y);
+
+    printf("%d",x&&y);
+
+}
+
+*/
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int x,y;
+
+    scanf("%d %d",&x,&y);
+
+    printf("%d",(x&&y)||!(x||y));
+
+    return 0;
+
+}
