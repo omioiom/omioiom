@@ -1,0 +1,286 @@
+/*
+
+    #include <stdio.h>
+
+    int main()
+
+    {
+
+        int x,y;
+
+        scanf ("%d",&x);
+
+        y = ((x%10*10)+(x/10))*2%100;
+
+        printf ("%d\n",y);
+
+        if (y <= 50) {
+
+            printf ("GOOD");
+
+        }
+
+        else {
+
+            printf ("OH MY GOD");
+
+        }
+
+    }
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a,b;
+
+    scanf ("%d",&a);
+
+    b=2012-a+1;
+
+    if (b >= 1900 && b <2000) {
+
+        printf ("%d 1",b%100);
+
+    }
+
+    else {
+
+        printf ("%d 3",b%100);
+
+    }
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a,b,c,d;
+
+    scanf ("%d %d",&a, &b);
+
+    c = (89-a)/5 + 1;
+
+    d = c + b;
+
+    printf ("%d ",d);
+
+}
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a;
+
+    scanf("%d",&a);
+
+    //if(a==10 || a==15)
+
+    if(a<10) // 0 ~ 9
+
+    {
+
+        printf("hello");
+
+    }
+
+   // else if(a==20)
+
+    else if(a<20) // 10 ~ 19
+
+    {
+
+        printf("hi");
+
+    }
+
+    else
+
+    {
+
+        printf("bye");
+
+    }
+
+    printf("\n");
+
+    switch(a/10)
+
+    {
+
+        case 0 : printf("hello"); break;
+
+        case 1 : printf("hi"); break;
+
+        default : printf("bye"); break;
+
+    }
+
+//    switch(a)
+
+//    {
+
+//        case <10 :
+
+//    }
+
+//    if( a == <10)
+
+//    switch(a)
+
+//    {
+
+//        case 10 :
+
+//        case 15 : printf("hello"); break;
+
+//        case 20 : printf("hi"); break;
+
+//        default : printf("bye"); break;
+
+//    }
+
+    return 0;
+
+}
+
+*/
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    char a;
+
+    scanf ("%c",&a);
+
+    switch (a)
+
+    {
+
+        case 'A' : printf ("best!!!"); break;
+
+        case 'B' : printf ("good!!"); break;
+
+        case 'C' : printf ("run!"); break;
+
+        case 'D' : printf ("slowly"); break;
+
+        default : printf ("What?"); break;
+
+    }
+
+    return 0;
+
+}
+
+*/
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a;
+
+    scanf ("%d",&a);
+
+    switch (a/3)
+
+    {
+
+        case 1 : printf ("spring"); break;
+
+        case 2 : printf ("summer"); break;
+
+        case 3 : printf ("fall"); break;
+
+        default : printf ("winter"); break;
+
+    }
+
+    return 0;
+
+}
+
+/*
+
+#include <stdio.h>
+
+int main()
+
+{
+
+    int a;
+
+    scanf ("%d",&a);
+
+    switch (a/10) {
+
+    case 10 :
+
+        case 9 : printf ("A"); break;
+
+        case 8 : printf ("B"); break;
+
+        case 7 : printf ("C"); break;
+
+        case 6 : printf ("D"); break;
+
+        default : printf ("F"); break;
+
+    }
+
+}
+
+//
+
+#include <stdio.h>
+
+int main ()
+
+{
+
+    int a,b,c,d;
+
+    scanf ("%d %d %d %d",&a,&b,&c,&d);
+
+    switch (a+b+c+d) {
+
+    case 1 : printf ("도"); break;
+
+    case 2 : printf ("개"); break;
+
+    case 3 : printf ("걸"); break;
+
+    case 4 : printf ("윷"); break;
+
+    default : printf ("모"); break;
+
+    }
+
+    return 0;
+
+}*/
+
